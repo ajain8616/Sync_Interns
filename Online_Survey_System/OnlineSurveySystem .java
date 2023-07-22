@@ -219,12 +219,4 @@ class OnlineSurveySystem extends JFrame {
                 "Submission Confirmation",
                 JOptionPane.INFORMATION_MESSAGE);
     }
-
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                new OnlineSurveySystem();
-            }
-        });
-    }
 }
